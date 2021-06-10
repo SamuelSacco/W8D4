@@ -12,7 +12,7 @@ function addNumber(sum, numsLeft, completionCallback){
 
         if (numsLeft === 0){
             completionCallback(sum);
-            return ;
+            return;
         }
         return addNumber(sum, numsLeft, completionCallback)
     })
